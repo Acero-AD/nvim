@@ -37,7 +37,7 @@ return {
         "dockerls",
         "docker_compose_language_service",
         "jdtls",
-        "ruby-lsp",
+        "solargraph",
       },
     })
   end
