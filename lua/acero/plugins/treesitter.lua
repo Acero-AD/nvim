@@ -17,6 +17,10 @@ return {
       autotag = {
         enable = true,
       },
+      auto_install = true,
+      ignore_install = { "" },
+      sync_install = false,
+      modules = {},
       ensure_installed = {
         "css",
         "html",
@@ -35,6 +39,8 @@ return {
         "bash",
         "dockerfile",
         "gitignore",
+        "sql",
+        "xml",
       },
       incremental_selection = {
         enable = true,
