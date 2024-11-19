@@ -41,6 +41,7 @@ return {
         "gitignore",
         "sql",
         "xml",
+        "go",
       },
       incremental_selection = {
         enable = true,

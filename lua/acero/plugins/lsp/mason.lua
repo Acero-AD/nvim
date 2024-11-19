@@ -27,7 +27,7 @@ return {
     mason_lspconfig.setup({
       -- list of servers for mason to install
       ensure_installed = {
-        "tsserver",
+        "ts_ls",
         "html",
         "cssls",
         "tailwindcss",
@@ -37,7 +37,8 @@ return {
         "dockerls",
         "docker_compose_language_service",
         "jdtls",
-        "solargraph",
+        "ruby_lsp",
+        "gopls",
       },
     })
   end
